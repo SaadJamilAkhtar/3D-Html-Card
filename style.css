@@ -17,10 +17,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    perspective: 1000px;
     
 }
 
+.title {
+    transition: all 0.75s ease-out;
+}
+
 .card {
+    transform-style: preserve-3d;
     min-height: 80vh;
     width: 31rem;
     padding: 0rem 5rem;
@@ -39,7 +45,7 @@ body {
     width: 20rem;
     margin-left: -3rem;
     padding-top: 2rem;
-    z-index: 2;
+    transition: all 0.75s ease-out;
 }
 
 .circle{
@@ -52,7 +58,6 @@ body {
     );
     position: absolute;
     border-radius: 50%;
-    z-index: 1;
 }
 
 
@@ -68,12 +73,14 @@ body {
     padding: 2rem 0rem;
     color: #585858;
     font-weight: lighter;
+    transition: all 0.75s ease-out;
     
 }
 
 .sizes {
     display: flex;
     justify-content: space-between;
+    transition: all 0.75s ease-out;
 }
 
 .sizes button{
@@ -106,6 +113,7 @@ button.active {
     cursor: pointer;
     font-weight: bolder;
     border-radius: 30px;
+    transition: all 0.75s ease-out;
 }
 
 button:hover{
