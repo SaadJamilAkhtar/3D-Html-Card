@@ -37,14 +37,14 @@ body {
 
 .sneaker img {
     width: 20rem;
-    margin-left: -2rem;
+    margin-left: -3rem;
     padding-top: 2rem;
     z-index: 2;
 }
 
 .circle{
-    width: 15rem;
-    height: 15rem;
+    width: 14rem;
+    height: 14rem;
     background: linear-gradient(
         to right,
         rgba(245,70,60,0.75),
