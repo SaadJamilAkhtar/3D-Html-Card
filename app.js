@@ -10,7 +10,7 @@ const sizes = document.querySelector('.sizes')
 container.addEventListener('mousemove', (e) => {
     let XAxis = ((window.innerWidth / 2) - e.pageX) / 15;
     let YAxis = ((window.innerHeight / 2) - e.pageY) / 15;
-    card.style.transform = `rotateY(${XAxis}deg) rotateX(${YAxis}deg)`
+    card.style.transform = `rotateY(${YAxis}deg) rotateX(${XAxis}deg)`
 });
 // Animate In
 container.addEventListener('mouseenter', (e) => {
